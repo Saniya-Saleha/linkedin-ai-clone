@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI LinkedIn Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AI-Powered LinkedIn Clone</h1>
+  </header>
+
+  <main>
+    <section id="profile-section">
+      <h2>Your Profile</h2>
+      <textarea id="profile-input" placeholder="Enter your skills and experience..."></textarea>
+      <button onclick="generateProfile()">Enhance Profile</button>
+      <div id="profile-output"></div>
+    </section>
+
+    <section id="job-section">
+      <h2>Recommended Jobs</h2>
+      <button onclick="getJobMatches()">Find Jobs</button>
+      <ul id="job-results"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
