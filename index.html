@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI LinkedIn Clone</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartProfile AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/174/174857.png">
 </head>
 <body>
-  <header>
-    <h1>AI-Powered LinkedIn Clone</h1>
+  <header class="navbar">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" class="logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Network</a>
+      <a href="#">Jobs</a>
+      <a href="#">Messaging</a>
+      <a href="#">Me</a>
+    </nav>
   </header>
 
-  <main>
-    <section id="profile-section">
-      <h2>Your Profile</h2>
-      <textarea id="profile-input" placeholder="Enter your skills and experience..."></textarea>
-      <button onclick="generateProfile()">Enhance Profile</button>
-      <div id="profile-output"></div>
-    </section>
+  <main class="content">
+    <div class="profile-card">
+      <img src="https://via.placeholder.com/100" alt="Profile Picture" class="avatar"/>
+      <h2>Jane Doe</h2>
+      <p>AI Enthusiast | Full-Stack Developer</p>
+      <button onclick="generateAIProfile()">Generate AI-Enhanced Resume</button>
+    </div>
 
-    <section id="job-section">
-      <h2>Recommended Jobs</h2>
-      <button onclick="getJobMatches()">Find Jobs</button>
-      <ul id="job-results"></ul>
-    </section>
+    <div class="output" id="ai-output">
+      <!-- AI output will appear here -->
+    </div>
   </main>
 
   <script src="script.js"></script>

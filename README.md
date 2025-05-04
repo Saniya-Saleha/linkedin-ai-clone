@@ -1,38 +1,27 @@
-# AI-Powered LinkedIn Clone
+# SmartProfile AI – LinkedIn-Inspired Clone
 
-A reimagined LinkedIn-style website that enhances user profiles and job recommendations using basic AI logic, built for the LevelUp: Vibe Coding Hackathon.
+SmartProfile AI is a modern web clone of LinkedIn enhanced with AI capabilities. It helps users generate improved profile suggestions and resume enhancements through an AI engine.
 
-# Reference Site
-[LinkedIn](https://www.linkedin.com)
+## 🔍 Reference Site
+[https://linkedin.com](https://linkedin.com)
 
-# Features & Enhancements
--  AI-enhanced profile generator based on user input
--  Smart job recommendations based on skills
--  Clean UI with responsive design
--  Bonus: Java-based AI engine simulation (console)
+## 🚀 Live Link
+[https://smartprofile-ai.netlify.app](https://smartprofile-ai.netlify.app)
 
-# Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- AI Simulation: Java (console-based logic)
+## 📁 Features
+- LinkedIn-style layout and design
+- Java-based AI engine for profile suggestions
+- Responsive layout using HTML/CSS/JS
+- Deployed via Netlify
 
+## 🧠 Enhancement
+Unlike the original, this version includes a smart resume enhancement tool powered by Java logic and AI suggestions.
 
-# How It Works
-1. User inputs their skills and experience.
-2. The AI (JavaScript or Java) generates a profile summary.
-3. Job roles are recommended based on keyword matching.
+## 📦 Tech Stack
+- HTML, CSS, JavaScript
+- Java (for AI logic)
+- Netlify (hosting)
+- GitHub (source control)
 
-# Project Structure
-
-├── index.html
-├── style.css
-├── script.js
-├── AiEngine.java
-├── README.md
-
-# Live Demo
-
-[Check out the project here](https://smartprofile-ai.netlify.app/)
-
-
-# License
+## License
 MIT
