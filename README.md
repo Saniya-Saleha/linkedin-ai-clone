@@ -29,5 +29,10 @@ A reimagined LinkedIn-style website that enhances user profiles and job recommen
 ├── AiEngine.java
 ├── README.md
 
+# Live Demo
+
+[Check out the project here](https://smartprofile-ai.netlify.app/)
+
+
 # License
 MIT
